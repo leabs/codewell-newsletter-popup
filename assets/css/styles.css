@@ -1,0 +1,77 @@
+html {
+  font-size: 18px;
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fill;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5 {
+  font-family: "Raleway", sans-serif;
+  line-height: 20px;
+}
+.newsletter-card {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 15px !important;
+  padding: 0 !important;
+  box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.05);
+  max-width: 530px;
+  margin: 0 auto;
+}
+.newsletter-header {
+  border-radius: 15px 15px 0 0 !important;
+  background-color: rgb(32, 75, 240);
+  background-image: url("../images/Pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fill;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-header h1 {
+  text-align: center;
+  padding: 20px;
+  max-width: 85%;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.newsletter-form {
+  background: #fff;
+  padding: 36px;
+  paddding-top: 20px;
+  border-radius: 0 0 15px 15px;
+}
+small {
+  color: rgba(0, 0, 0, 0.5);
+}
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65px;
+}
+.author img {
+  height: 45px !important;
+  width: 45px !important;
+}
+a.button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700 !important;
+}
